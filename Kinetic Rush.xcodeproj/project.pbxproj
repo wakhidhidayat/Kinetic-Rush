@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E593E262BF233BD00093C01 /* View+RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E593E252BF233BD00093C01 /* View+RoundedCorner.swift */; };
+		3E63F8682BDCE6B100BE3622 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E63F8672BDCE6B100BE3622 /* Color+Ext.swift */; };
+		3E63F86A2BDCE89900BE3622 /* UIScreen+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E63F8692BDCE89900BE3622 /* UIScreen+Ext.swift */; };
+		3E63F86C2BDCF05C00BE3622 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E63F86B2BDCF05C00BE3622 /* GameView.swift */; };
+		3E63F86E2BDCF0E100BE3622 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E63F86D2BDCF0E100BE3622 /* CameraView.swift */; };
+		3E63F8702BDCF10700BE3622 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E63F86F2BDCF10700BE3622 /* CameraViewController.swift */; };
+		3E66F5972BF412E5005B85E7 /* GameResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E66F5962BF412E5005B85E7 /* GameResultView.swift */; };
+		3E66F59C2BF422F9005B85E7 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E66F59B2BF422F9005B85E7 /* PrimaryButton.swift */; };
+		3E66F5A02BF42580005B85E7 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E66F59F2BF42580005B85E7 /* OnboardingView.swift */; };
+		3E78A33D2BD940D700006D56 /* Kinetic_RushApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E78A33C2BD940D700006D56 /* Kinetic_RushApp.swift */; };
+		3E78A3412BD940D800006D56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E78A3402BD940D800006D56 /* Assets.xcassets */; };
+		3E78A3442BD940D800006D56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E78A3432BD940D800006D56 /* Preview Assets.xcassets */; };
+		3E78A34B2BD9423200006D56 /* CGPoint+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E78A34A2BD9423200006D56 /* CGPoint+Ext.swift */; };
+		3E78A3502BD942AC00006D56 /* AudioHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E78A34F2BD942AC00006D56 /* AudioHelper.swift */; };
+		3E78A3542BD945FA00006D56 /* sfx.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3E78A3522BD945FA00006D56 /* sfx.m4a */; };
+		3E78A3552BD945FA00006D56 /* backsound_game.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3E78A3532BD945FA00006D56 /* backsound_game.m4a */; };
+		3E78A3592BD94E0400006D56 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E78A3582BD94E0400006D56 /* GameViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E593E252BF233BD00093C01 /* View+RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+RoundedCorner.swift"; sourceTree = "<group>"; };
+		3E63F8672BDCE6B100BE3622 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		3E63F8692BDCE89900BE3622 /* UIScreen+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Ext.swift"; sourceTree = "<group>"; };
+		3E63F86B2BDCF05C00BE3622 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		3E63F86D2BDCF0E100BE3622 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		3E63F86F2BDCF10700BE3622 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		3E66F5962BF412E5005B85E7 /* GameResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResultView.swift; sourceTree = "<group>"; };
+		3E66F59B2BF422F9005B85E7 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		3E66F59F2BF42580005B85E7 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		3E78A3392BD940D700006D56 /* Kinetic Rush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kinetic Rush.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E78A33C2BD940D700006D56 /* Kinetic_RushApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kinetic_RushApp.swift; sourceTree = "<group>"; };
+		3E78A3402BD940D800006D56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E78A3432BD940D800006D56 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E78A34A2BD9423200006D56 /* CGPoint+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Ext.swift"; sourceTree = "<group>"; };
+		3E78A34F2BD942AC00006D56 /* AudioHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioHelper.swift; sourceTree = "<group>"; };
+		3E78A3522BD945FA00006D56 /* sfx.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx.m4a; sourceTree = "<group>"; };
+		3E78A3532BD945FA00006D56 /* backsound_game.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = backsound_game.m4a; sourceTree = "<group>"; };
+		3E78A3582BD94E0400006D56 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E78A3362BD940D700006D56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E66F59A2BF422EC005B85E7 /* View Component */ = {
+			isa = PBXGroup;
+			children = (
+				3E66F59B2BF422F9005B85E7 /* PrimaryButton.swift */,
+			);
+			path = "View Component";
+			sourceTree = "<group>";
+		};
+		3E66F59D2BF42434005B85E7 /* Game Result */ = {
+			isa = PBXGroup;
+			children = (
+				3E66F5962BF412E5005B85E7 /* GameResultView.swift */,
+			);
+			path = "Game Result";
+			sourceTree = "<group>";
+		};
+		3E66F59E2BF42567005B85E7 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				3E66F59F2BF42580005B85E7 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		3E78A3302BD940D700006D56 = {
+			isa = PBXGroup;
+			children = (
+				3E78A33B2BD940D700006D56 /* Kinetic Rush */,
+				3E78A33A2BD940D700006D56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E78A33A2BD940D700006D56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E78A3392BD940D700006D56 /* Kinetic Rush.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E78A33B2BD940D700006D56 /* Kinetic Rush */ = {
+			isa = PBXGroup;
+			children = (
+				3E78A3562BD94DED00006D56 /* Feature */,
+				3E78A33C2BD940D700006D56 /* Kinetic_RushApp.swift */,
+				3E78A3422BD940D800006D56 /* Preview Content */,
+				3E78A3512BD945C900006D56 /* Supporting Files */,
+				3E78A34C2BD9423A00006D56 /* Utility */,
+				3E66F59A2BF422EC005B85E7 /* View Component */,
+			);
+			path = "Kinetic Rush";
+			sourceTree = "<group>";
+		};
+		3E78A3422BD940D800006D56 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3E78A3432BD940D800006D56 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3E78A34C2BD9423A00006D56 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				3E78A34E2BD942A500006D56 /* Helper */,
+				3E78A34D2BD9424500006D56 /* Extension */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		3E78A34D2BD9424500006D56 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3E78A34A2BD9423200006D56 /* CGPoint+Ext.swift */,
+				3E63F8672BDCE6B100BE3622 /* Color+Ext.swift */,
+				3E63F8692BDCE89900BE3622 /* UIScreen+Ext.swift */,
+				3E593E252BF233BD00093C01 /* View+RoundedCorner.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3E78A34E2BD942A500006D56 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3E78A34F2BD942AC00006D56 /* AudioHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		3E78A3512BD945C900006D56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E78A3402BD940D800006D56 /* Assets.xcassets */,
+				3E78A3532BD945FA00006D56 /* backsound_game.m4a */,
+				3E78A3522BD945FA00006D56 /* sfx.m4a */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E78A3562BD94DED00006D56 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				3E66F59E2BF42567005B85E7 /* Onboarding */,
+				3E66F59D2BF42434005B85E7 /* Game Result */,
+				3E78A3572BD94DF600006D56 /* Game */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		3E78A3572BD94DF600006D56 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				3E78A3582BD94E0400006D56 /* GameViewModel.swift */,
+				3E63F86B2BDCF05C00BE3622 /* GameView.swift */,
+				3E63F86D2BDCF0E100BE3622 /* CameraView.swift */,
+				3E63F86F2BDCF10700BE3622 /* CameraViewController.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E78A3382BD940D700006D56 /* Kinetic Rush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E78A3472BD940D800006D56 /* Build configuration list for PBXNativeTarget "Kinetic Rush" */;
+			buildPhases = (
+				3E78A3352BD940D700006D56 /* Sources */,
+				3E78A3362BD940D700006D56 /* Frameworks */,
+				3E78A3372BD940D700006D56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kinetic Rush";
+			productName = "Kinetic Rush";
+			productReference = 3E78A3392BD940D700006D56 /* Kinetic Rush.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E78A3312BD940D700006D56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					3E78A3382BD940D700006D56 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 3E78A3342BD940D700006D56 /* Build configuration list for PBXProject "Kinetic Rush" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E78A3302BD940D700006D56;
+			productRefGroup = 3E78A33A2BD940D700006D56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E78A3382BD940D700006D56 /* Kinetic Rush */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E78A3372BD940D700006D56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E78A3542BD945FA00006D56 /* sfx.m4a in Resources */,
+				3E78A3552BD945FA00006D56 /* backsound_game.m4a in Resources */,
+				3E78A3442BD940D800006D56 /* Preview Assets.xcassets in Resources */,
+				3E78A3412BD940D800006D56 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E78A3352BD940D700006D56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E63F8702BDCF10700BE3622 /* CameraViewController.swift in Sources */,
+				3E78A34B2BD9423200006D56 /* CGPoint+Ext.swift in Sources */,
+				3E63F86A2BDCE89900BE3622 /* UIScreen+Ext.swift in Sources */,
+				3E63F86E2BDCF0E100BE3622 /* CameraView.swift in Sources */,
+				3E66F5972BF412E5005B85E7 /* GameResultView.swift in Sources */,
+				3E66F59C2BF422F9005B85E7 /* PrimaryButton.swift in Sources */,
+				3E78A3502BD942AC00006D56 /* AudioHelper.swift in Sources */,
+				3E78A3592BD94E0400006D56 /* GameViewModel.swift in Sources */,
+				3E78A33D2BD940D700006D56 /* Kinetic_RushApp.swift in Sources */,
+				3E593E262BF233BD00093C01 /* View+RoundedCorner.swift in Sources */,
+				3E63F86C2BDCF05C00BE3622 /* GameView.swift in Sources */,
+				3E63F8682BDCE6B100BE3622 /* Color+Ext.swift in Sources */,
+				3E66F5A02BF42580005B85E7 /* OnboardingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3E78A3452BD940D800006D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E78A3462BD940D800006D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E78A3482BD940D800006D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kinetic Rush/Preview Content\"";
+				DEVELOPMENT_TEAM = 94XJVN3C32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kinetic-Rush-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Kinetic Rush";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Kami butuh akses ke kamera nih supaya kamu bisa ngendaliin permainan pake gerakan tubuh kamu. Kamera cuma digunakan saat bermain game kok.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wakhidhidayat.Kinetic-Rush";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E78A3492BD940D800006D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kinetic Rush/Preview Content\"";
+				DEVELOPMENT_TEAM = 94XJVN3C32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kinetic-Rush-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Kinetic Rush";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Kami butuh akses ke kamera nih supaya kamu bisa ngendaliin permainan pake gerakan tubuh kamu. Kamera cuma digunakan saat bermain game kok.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wakhidhidayat.Kinetic-Rush";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E78A3342BD940D700006D56 /* Build configuration list for PBXProject "Kinetic Rush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E78A3452BD940D800006D56 /* Debug */,
+				3E78A3462BD940D800006D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E78A3472BD940D800006D56 /* Build configuration list for PBXNativeTarget "Kinetic Rush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E78A3482BD940D800006D56 /* Debug */,
+				3E78A3492BD940D800006D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E78A3312BD940D700006D56 /* Project object */;
+}
