@@ -28,6 +28,7 @@ workflows:
         submit_to_testflight: true
         beta_groups:
          - YTTA
+         - Public
       email:
         recipients:
           - wshidayat38@gmail.com
