@@ -75,7 +75,7 @@ struct GameView: View {
                     .position(poseEstimator.rightAnklePosition)
             } else {
                 VStack {
-                    Text("Stand up and fit your body")
+                    Text("Berdiri dan sesuaikan posisi")
                         .frame(width: 280, height: 50)
                         .font(.system(size: 19, weight: .bold))
                         .foregroundColor(.white)

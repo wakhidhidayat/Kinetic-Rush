@@ -24,6 +24,8 @@
 		3E78A3542BD945FA00006D56 /* sfx.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3E78A3522BD945FA00006D56 /* sfx.m4a */; };
 		3E78A3552BD945FA00006D56 /* backsound_game.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3E78A3532BD945FA00006D56 /* backsound_game.m4a */; };
 		3E78A3592BD94E0400006D56 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E78A3582BD94E0400006D56 /* GameViewModel.swift */; };
+		3EC600912BF787EA00EF92BF /* OnboardingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC600902BF787EA00EF92BF /* OnboardingItem.swift */; };
+		3EC600932BF787FF00EF92BF /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC600922BF787FF00EF92BF /* OnboardingModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		3E78A3522BD945FA00006D56 /* sfx.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx.m4a; sourceTree = "<group>"; };
 		3E78A3532BD945FA00006D56 /* backsound_game.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = backsound_game.m4a; sourceTree = "<group>"; };
 		3E78A3582BD94E0400006D56 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		3EC600902BF787EA00EF92BF /* OnboardingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingItem.swift; sourceTree = "<group>"; };
+		3EC600922BF787FF00EF92BF /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				3E66F59F2BF42580005B85E7 /* OnboardingView.swift */,
+				3EC600902BF787EA00EF92BF /* OnboardingItem.swift */,
+				3EC600922BF787FF00EF92BF /* OnboardingModel.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 				3E78A33D2BD940D700006D56 /* Kinetic_RushApp.swift in Sources */,
 				3E593E262BF233BD00093C01 /* View+RoundedCorner.swift in Sources */,
 				3E63F86C2BDCF05C00BE3622 /* GameView.swift in Sources */,
+				3EC600932BF787FF00EF92BF /* OnboardingModel.swift in Sources */,
+				3EC600912BF787EA00EF92BF /* OnboardingItem.swift in Sources */,
 				3E63F8682BDCE6B100BE3622 /* Color+Ext.swift in Sources */,
 				3E66F5A02BF42580005B85E7 /* OnboardingView.swift in Sources */,
 			);
@@ -321,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -378,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -394,7 +402,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Kinetic Rush/Preview Content\"";
 				DEVELOPMENT_TEAM = 94XJVN3C32;
 				ENABLE_PREVIEWS = YES;
@@ -431,7 +439,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Kinetic Rush/Preview Content\"";
 				DEVELOPMENT_TEAM = 94XJVN3C32;
 				ENABLE_PREVIEWS = YES;

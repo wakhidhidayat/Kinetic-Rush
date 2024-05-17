@@ -17,7 +17,7 @@ struct GameResultView: View {
             Color.black
             
             VStack {
-                Text("Your Score:")
+                Text("Skor kamu:")
                     .font(.title)
                     .bold()
                 Text(String(score))
