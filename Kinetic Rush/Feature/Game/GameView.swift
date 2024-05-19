@@ -33,6 +33,10 @@ struct GameView: View {
                                 .frame(width: 97, height: 46)
                                 .foregroundColor(.accentColor)
                         )
+                    
+                    Text(String("00 : \(elapsedTime)"))
+                        .font(.system(size: 24, weight: .bold))
+                        .foregroundColor(.white)
                     Spacer()
                 }
                 
